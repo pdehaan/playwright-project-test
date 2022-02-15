@@ -1,0 +1,29 @@
+{
+  "name": "playwright-project-test",
+  "description": "Testing creating a Playwright Project for multi-browser greatness.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bugs": {
+    "url": "https://github.com/pdehaan/playwright-project-test/issues"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.19.0",
+    "@sindresorhus/slugify": "^2.1.0",
+    "dotenv": "^16.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "homepage": "https://github.com/pdehaan/playwright-project-test#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.test.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/playwright-project-test.git"
+  },
+  "scripts": {
+    "test": "playwright test"
+  },
+  "type": "module"
+}
